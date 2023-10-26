@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { add, fib } from "../../../rust-demo/bundler/rust_demo";
+import { add, fib } from "../../../rust2wasm-rust/bundler/rust_demo";
 
 // 斐波那契数列
 

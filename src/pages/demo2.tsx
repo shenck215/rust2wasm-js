@@ -1,5 +1,5 @@
 import { useCallback, useEffect } from "react";
-import initWasm,{ add } from "../../../rust-demo/web/rust_demo";
+import initWasm,{ add } from "../../../rust2wasm-rust/web/rust_demo";
 
 export default function Demo2() {
 	const init = useCallback(async () => {
